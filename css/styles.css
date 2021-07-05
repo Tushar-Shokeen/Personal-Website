@@ -1,0 +1,165 @@
+body {
+  color: #40514E;
+  margin: inherit;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+
+h1 {
+  font-size: 90px;  /*16px=1em=100%*/
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: auto 30px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  height: 0;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.profile{
+  padding-top: 50px;
+  line-height: 2;
+}
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #EAF6F6;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-dev{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.iOS-dev{
+  width: 25%;
+  float: right;
+}
+
+.contact-me{
+  line-height: 2.5;
+  margin-bottom: 50px;
+}
+
+/*.btn{
+  width: 50px;
+  height: 15px;
+  padding: 5px 10px;
+  margin: 10px auto;
+  background-color: #11999E;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+}*/
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   color: white;
+   margin: 50px auto 20px;
+}
+
+.btn:hover{
+  background-color: #EAF6F6;
+  color: #11999E;
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin-top: 10px;
+}
+
+.footer-link{
+  margin-left: 0;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+.description{
+  padding: 50px;
+  padding-left: 0;
+}
